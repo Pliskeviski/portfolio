@@ -19,9 +19,16 @@
           <h2 class="skills-title">Technologies</h2>
           <div class="skills-content">
             <div class="confident-text">How confident I fell about:</div>
-            <span v-for="item in skills" :key="item.name">
-              <Skill :name="item.name" :percentage=item.percentage></Skill>
-            </span>
+            <Skill
+              v-for="item in skills"
+              :key="item.name"
+              :name="item.name"
+              :percentage="item.percentage"
+            ></Skill>
+            <div class="familiar">
+              But I'm also familiar with:
+              <div class="familiar-tech">C++, ReactJS, VueJS, OpenGL, NodeJS, Ruby on Rails and many others!</div>
+            </div>
           </div>
         </div>
       </div>
@@ -42,7 +49,7 @@ export default {
       skills: [
         {
           name: ".NET Framework/Core",
-          percentage: 85
+          percentage: 88
         },
         {
           name: "Angular 2+",
@@ -53,12 +60,8 @@ export default {
           percentage: 95
         },
         {
-          name: "C++",
-          percentage: 95
-        },
-        {
           name: "React Native",
-          percentage: 70
+          percentage: 75
         }
       ]
     };
@@ -133,6 +136,16 @@ h2 {
   font-weight: 800;
   font-size: 1.4rem;
   margin-bottom: 35px;
+}
+
+.familiar {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.familiar-tech {
+  font-weight: normal;
+  font-size: 1rem;
 }
 
 @media only screen and (max-width: 1024px) {
