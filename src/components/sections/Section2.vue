@@ -5,7 +5,7 @@
         <div class="info-container">
           <h2 class="about-me-title">About me</h2>
           <div class="about-me-content">
-            Jr. Software Engineer currently
+            Software Engineer currently
             working at AutoTech where I mostly
             do front-end development.
             I’m also a full stack developer and
