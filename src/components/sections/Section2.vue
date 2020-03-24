@@ -62,6 +62,10 @@ export default {
         {
           name: "React Native",
           percentage: 75
+        },
+        {
+          name: "ReactJS",
+          percentage: 80
         }
       ]
     };
