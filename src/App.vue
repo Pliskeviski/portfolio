@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <MainPage :msg="message" />
+    <MainPage />
   </div>
 </template>
 
@@ -11,16 +11,6 @@ export default {
   name: "App",
   components: {
     MainPage
-  },
-  data() {
-    return {
-      message: "Hello Word"
-    };
-  },
-  methods: {
-    alertMessage() {
-      alert(this.message);
-    }
   }
 };
 </script>
@@ -31,7 +21,7 @@ export default {
 :root {
   --var-dark-color: #383838;
   --var-light-color: #fff9f9;
-  font-size: 62.5%;
+  font-size: 60.5%;
 }
 
 html {
@@ -48,6 +38,13 @@ body {
     height: calc(100vh - 56px);
   }
 }
+
+@media only screen and (max-width: 1300px) {
+  :root {
+    font-size: 60%;
+  }
+}
+
 @media only screen and (max-width: 425px) {
   :root {
     font-size: 50%;

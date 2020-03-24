@@ -91,7 +91,7 @@ export default {
 
 .section-info {
   flex: 1;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   justify-content: space-around;

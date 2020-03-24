@@ -25,10 +25,10 @@
               :name="item.name"
               :percentage="item.percentage"
             ></Skill>
-            <div class="familiar">
-              But I'm also familiar with:
-              <div class="familiar-tech">C++, VueJS, OpenGL, NodeJS, Ruby on Rails and many others!</div>
-            </div>
+          </div>
+          <div class="familiar">
+            But I'm also familiar with:
+            <div class="familiar-tech">C++, VueJS, OpenGL, NodeJS, Ruby on Rails and many others!</div>
           </div>
         </div>
       </div>
@@ -91,7 +91,7 @@ export default {
 
 .section-info {
   flex: 1;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -138,7 +138,7 @@ h2 {
 .confident-text {
   font-weight: 800;
   font-size: 1.4rem;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 
 .familiar {
