@@ -22,17 +22,25 @@
           <div class="projects-content">
             <div class="check-github">
               <p>Check out my GitHub profile:</p>
-              <div class="github-image"></div>
-              <div class="github-name">Pliskeviski</div>
               <a href="https://github.com/Pliskeviski" target="_blank">
-                <i class="fab fa-github fa-4x"></i>
+                <div class="github-image"></div>
               </a>
+              <div class="github-name">Pliskeviski</div>
+              <div class="email">
+                Reach out to me:
+                <br /><a href="mailto:gustavopliskeviski@gmail.com">gustavopliskeviski@gmail</a>
+              </div>
             </div>
             <div class="find-me-on">
               Find me on:
-              <a href="https://www.linkedin.com/in/pliskeviski/" target="_blank">
-                <i class="fa fa-linkedin-square fa-3x"></i>
-              </a>
+              <div class="social">
+                <a href="https://www.linkedin.com/in/pliskeviski/" target="_blank">
+                  <i class="fa fa-linkedin-square fa-3x"></i>
+                </a>
+                <a href="https://github.com/Pliskeviski" target="_blank">
+                  <i class="fab fa-github fa-4x"></i>
+                </a>
+              </div>
             </div>
           </div>
         </div>
@@ -232,6 +240,15 @@ h2 {
   color: var(--var-dark-color);
   font-size: 3em;
   padding: 10px;
+}
+
+.email {
+  padding-top: 15px;
+}
+
+.email a {
+  color: var(--var-dark-color);
+  text-decoration: none;
 }
 
 @media only screen and (max-width: 1024px) {
