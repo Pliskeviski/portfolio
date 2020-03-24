@@ -27,7 +27,7 @@
             ></Skill>
             <div class="familiar">
               But I'm also familiar with:
-              <div class="familiar-tech">C++, ReactJS, VueJS, OpenGL, NodeJS, Ruby on Rails and many others!</div>
+              <div class="familiar-tech">C++, VueJS, OpenGL, NodeJS, Ruby on Rails and many others!</div>
             </div>
           </div>
         </div>
