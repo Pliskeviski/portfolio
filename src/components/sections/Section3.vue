@@ -28,7 +28,7 @@
               <div class="github-name">Pliskeviski</div>
               <div class="email">
                 Reach out to me:
-                <br /><a href="mailto:gustavopliskeviski@gmail.com">gustavopliskeviski@gmail</a>
+                <br /><a href="mailto:gustavopliskeviski@gmail.com">gustavopliskeviski@gmail.com</a>
               </div>
             </div>
             <div class="find-me-on">
