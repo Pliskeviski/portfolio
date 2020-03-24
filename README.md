@@ -1,4 +1,4 @@
-# portfolio
+# Gustavo Pliskeviski's Portfolio
 
 ## Project setup
 ```
