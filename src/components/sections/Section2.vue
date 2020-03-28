@@ -48,7 +48,7 @@ export default {
     return {
       skills: [
         {
-          name: ".NET Framework/Core",
+          name: ".NET Core",
           percentage: 88
         },
         {
@@ -65,7 +65,7 @@ export default {
         },
         {
           name: "ReactJS",
-          percentage: 80
+          percentage: 85
         }
       ]
     };
