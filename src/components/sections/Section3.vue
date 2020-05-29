@@ -63,9 +63,15 @@ export default {
         },
         {
           companyName: "AutoTech.",
-          startEndDate: "Oct. 2019 - Present.",
+          startEndDate: "Oct. 2019 - Apr. 2020",
           description:
             "Working mainly as a front-end developer using Angular 8, AngularJS, .NET and ASP.NET MVC. Most projects are focused on auctions."
+        },
+        {
+          companyName: "Manipulaê.",
+          startEndDate: "Apr. 2020 - Present.",
+          description:
+            "Working remotely as a full-stack developer using ReactJS, React Native and .NET Core. Working on a SaaS project focused on pharmacies."
         }
       ]
     };
