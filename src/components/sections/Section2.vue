@@ -6,10 +6,8 @@
           <h2 class="about-me-title">About me</h2>
           <div class="about-me-content">
             Software Engineer currently
-            working at AutoTech where I mostly
-            do front-end development.
-            I’m also a full stack developer and
-            a design enthusiast based on
+            working at Manipulaê as a full-stack developer.
+            I’m also a design enthusiast based on
             Curitiba, Brazil.
           </div>
         </div>
