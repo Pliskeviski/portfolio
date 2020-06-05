@@ -5,10 +5,14 @@
         <div class="info-container">
           <h2 class="about-me-title">About me</h2>
           <div class="about-me-content">
-            Software Engineer currently
-            working at Manipulaê as a full-stack developer.
-            I’m also a design enthusiast based on
-            Curitiba, Brazil.
+            I’m Gustavo Pliskeviski,
+            currently working as a
+            full-stack developer at Manipulaê.
+            I’ve been doing and studying software development
+            for the past 7 years and learned a lot
+            with different projects and clients.
+            I’m also a design enthusiast living
+            in Curitiba, Brazil.
           </div>
         </div>
       </div>
