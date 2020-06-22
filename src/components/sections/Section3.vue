@@ -65,7 +65,7 @@ export default {
           companyName: "AutoTech.",
           startEndDate: "Oct. 2019 - Apr. 2020",
           description:
-            "Working mainly as a front-end developer using Angular 8, AngularJS, .NET and ASP.NET MVC. Most projects are focused on auctions."
+            "Working mainly as a front-end developer using Angular 8, AngularJS, .NET and ASP.NET MVC. Most projects were focused on auctions."
         },
         {
           companyName: "Manipulaê.",
